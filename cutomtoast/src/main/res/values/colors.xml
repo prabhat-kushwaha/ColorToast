@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="failureColor">#D50000</color>
+    <color name="successColor">#388E3C</color>
+    <color name="textColor">@android:color/white</color>
+
+</resources>

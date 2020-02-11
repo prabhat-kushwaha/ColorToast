@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             @RequiresApi(api = Build.VERSION_CODES.M)
             @Override
             public void onClick(View v) {
-                ToastMessage.showWaringMessage(getApplicationContext(), "hello", Toast.LENGTH_LONG);
+                ToastMessage.showWarningMessage(getApplicationContext(), "hello", Toast.LENGTH_LONG);
             }
         });
         ((Button) findViewById(R.id.btErrorMessage)).setOnClickListener(new View.OnClickListener() {

@@ -48,7 +48,7 @@ public class ToastMessage {
 
 
     @RequiresApi(api = Build.VERSION_CODES.M)
-    public static void showWaringMessage(Context mContext, String message, int mToastLength) {
+    public static void showWarningMessage(Context mContext, String message, int mToastLength) {
         Toast toast = Toast.makeText(mContext, message, mToastLength);
         View toastView = toast.getView();
         TextView toastTextView = toastView.findViewById(android.R.id.message);
